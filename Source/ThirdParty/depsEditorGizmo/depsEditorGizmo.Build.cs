@@ -5,9 +5,9 @@ using UnrealBuildTool;
 using System;
 using System.Collections.Generic;
 
-public class deps<#Module Name#> : ModuleRules
+public class depsEditorGizmo : ModuleRules
 {
-	public deps<#Module Name#>(ReadOnlyTargetRules Target) : base(Target)
+	public depsEditorGizmo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		Type = ModuleType.External;
 

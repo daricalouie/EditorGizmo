@@ -1,5 +1,5 @@
 //
-// <#Module Name#>.Build.cs
+// EditorGizmo.Build.cs
 //
 //  Generated on <#generation date#>
 //  Template created by Peter Gusev on 27 January 2020.
@@ -8,9 +8,9 @@
 
 using UnrealBuildTool;
 
-public class <#Module Name#> : ModuleRules
+public class EditorGizmo : ModuleRules
 {
-	public <#Module Name#>(ReadOnlyTargetRules Target) : base(Target)
+	public EditorGizmo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -47,7 +47,7 @@ public class <#Module Name#> : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"deps<#Module Name#>"
+				"depsEditorGizmo"
 				// ... add private dependencies that you statically link with here ...
 			}
 			);
